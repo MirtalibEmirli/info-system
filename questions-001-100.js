@@ -61,7 +61,17 @@ const QUESTIONS_001_100 = [
 {id:55,t:"Texniki təminat",st:"Yaddaş",d:"easy",q:"RAM hansı yaddaş növüdür?",o:["Daimi yaddaş","Operativ (əməli) yaddaş","Keş yaddaş","Registr","CMOS"],a:1,e:"RAM = Random Access Memory = operativ/əməli/müvəqqəti yaddaş.",tip:"RAM = müvəqqəti, ROM = daimi",tags:["texniki","yaddas"]},
 {id:56,t:"Texniki təminat",st:"Yaddaş",d:"medium",q:"Ən sürətli yaddaş hansıdır?",o:["RAM","ROM","Keş","Registr","CMOS"],a:3,e:"Registr — CPU-nun daxilində yerləşir, ən sürətli yaddaşdır.",tip:"Sürət: Registr > Keş > RAM > HDD",tags:["texniki","yaddas"]},
 {id:57,t:"Texniki təminat",st:"Yaddaş",d:"medium",q:"BIOS harada saxlanılır?",o:["RAM-da","Keş yaddaşda","ROM-da","HDD-də","CMOS-da"],a:2,e:"BIOS ROM-da saxlanılır. BIOS parametrləri (vaxt, tarix) isə CMOS-da.",tip:"BIOS → ROM-da. Parametrlər → CMOS-da",tags:["texniki","yaddas"]},
-{id:58,t:"Texniki təminat",st:"Yaddaş",d:"trap",q:"Aşağıdakılardan hansı doğru DEYİL?",o:["Əməli yaddaşda verilənlər müvəqqəti saxlanılır","Qrafik planşet daxiletmə qurğusudur","Keş-yaddaş böyük tutumlu aşağı sürətli yaddaşdır","Skaner xaricetmə qurğusudur","CMOS-yaddaş enerjidən asılı olan yaddaşdır"],a:2,e:"Keş = KİÇİK tutumlu, SÜRƏTLİ yaddaş! 'Böyük tutumlu aşağı sürətli' tamamilə yanlışdır. Həmçinin skaner=daxiletmə, CMOS batareyalıdır (enerjidən asılı deyil).",tip:"Keş = kiçik + sürətli. DIM bunu tez-tez soruşur",tags:["texniki","yaddas","trap","2026"]},
+
+
+
+{id:58,t:"Texniki təminat",st:"Yaddaş",d:"trap",q:"Aşağıdakılardan hansı doğru DEYİL?",o:["Əməli yaddaşda verilənlər müvəqqəti saxlanılır",
+    "Qrafik planşet daxiletmə qurğusudur","Keş-yaddaş böyük tutumlu yuxarı sürətli yaddaşdır","Skaner daxiletmə qurğusudur","CMOS-yaddaş enerjidən asılı olmayaan yaddaşdır"],a:2,e:"Keş = KİÇİK tutumlu, SÜRƏTLİ yaddaş! 'Böyük tutumlu aşağı sürətli' tamamilə yanlışdır. Həmçinin skaner=daxiletmə, CMOS batareyalıdır (enerjidən asılı deyil).",tip:"Keş = kiçik + sürətli. DIM bunu tez-tez soruşur",tags:["texniki","yaddas","trap","2026"]},
+
+
+
+
+
+
 {id:59,t:"Texniki təminat",st:"Xarici yaddaş",d:"medium",q:"Xarici yaddaş qurğularına aiddir:\n1.CMOS 2.Sərt disk 3.Strimer 4.Kompakt-disk 5.Keş 6.Daimi yaddaş 7.Flaş-kart 8.Əməli yaddaş",o:["2,3,6,7","1,5,6,8","2,3,4,7","2,3,5,7","1,4,5,8"],a:2,e:"Xarici yaddaş: sərt disk(2), strimer(3), kompakt-disk(4), flaş-kart(7). CMOS, keş, daimi, əməli = daxili.",tip:"Xarici = HDD, CD, DVD, flaş, strimer",tags:["texniki","xarici","2026"]},
 {id:60,t:"Texniki təminat",st:"Yaddaş",d:"medium",q:"Enerjidən asılı olan daxili yaddaşlar hansılardır?",o:["RAM, keş, registr, videoyaddaş","ROM, CMOS, BIOS","HDD, SSD, flaş","RAM, ROM, keş","Hamısı"],a:0,e:"Enerjidən asılı (enerji kəsiləndə silinir): RAM, keş, registr, videoyaddaş.",tip:"Enerjidən asılı = RAM, keş, registr, video",tags:["texniki","yaddas"]},
 {id:61,t:"Texniki təminat",st:"Printer",d:"medium",q:"Lazer printer hansı qrupa aiddir?",o:["Zərbəli","Zərbəsiz","Matrisli","Literli","Mexaniki"],a:1,e:"Zərbəsiz: şırnaqlı, lazerli, termiki. Zərbəli: literli, matrisli.",tip:"Zərbəli = literli + matrisli. Zərbəsiz = şırnaqlı + lazer + termiki",tags:["texniki","printer"]},
